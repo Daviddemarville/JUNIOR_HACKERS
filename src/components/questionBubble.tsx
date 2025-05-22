@@ -5,7 +5,6 @@ import {
 	validateAnswer,
 } from "../components/questionnaire";
 import Button from "./ui/button";
-import PlayerName from "../pages/PlayerName";
 
 interface QuestionBubbleProps {
 	caseId: CaseId;
@@ -103,7 +102,9 @@ ${appear && !isClosing ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10
 					<div className="mt-4">
 						<p className="font-semibold text-lg">{feedback}</p>
 						{explanation && (
-							<p className="mt-2 text-sm text-gray-600">💡 {explanation}</p>
+							<p className="mt-2 text-lm text-gray-600 bg-cyan-100 p-2">
+								💡 {explanation}
+							</p>
 						)}
 
 						<button

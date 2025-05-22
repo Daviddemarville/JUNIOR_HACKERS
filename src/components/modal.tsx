@@ -35,7 +35,7 @@ const ModalExample: React.FC = () => {
 	const [isModalBOpen, setModalBOpen] = useState(false);
 
 	return (
-		<div className="flex justify-around p-4 space-x-2 mt-20 md: mt-30">
+		<div className="flex justify-around p-4 space-x-2 mt-20 md:mt-30">
 			<Button
 				type="button"
 				variant="primary"
